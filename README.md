@@ -6,7 +6,7 @@ Dart is an open-source, general-purpose, object-oriented programming language wi
 
 ### Variables
 
-#### variable declaration using `var`
+- #### variable declaration using `var`
 
 There are different ways to initialize a variable in Dart. The straight forward and recommended way is by using the keyword `var`.
 
