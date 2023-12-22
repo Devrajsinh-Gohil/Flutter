@@ -62,13 +62,13 @@ void main(){
 Here both keywords will give same output:
 > John Doe <br> 124
 
-### Key differences between `dyanmic` and `Object`
+#### Key differences between `dyanmic` and `Object`
 
 >**Note!!!** <br>
 Eventhough they show the same output, they are usually not interchangeable.
 
 In Dart, `dynamic` and `Object` are both types that can hold values of any type. However, they have some key differences:
 
-| dynamic                                                                                                                                                            | Object                                                                                                                                                                                                                                                                                                                                         |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dynamic is a type that tells the Dart compiler to skip type checking at compile time. This means that the type of a dynamic variable can be determined at runtime. | Object is a class in Dart's core library. It is the root of the Dart class hierarchy and is a supertype of all Dart types, meaning every class and data types are extended from Object. When you use Object, you still have to adhere to Dart's static typing rules, which means you have to perform explicit type conversions when necessary. |
+| **dynamic**            | **Object** |
+|--------------------|----------------------------|
+| `dynamic` is a type that tells the Dart compiler to skip type checking at compile time. This means that the type of a dynamic variable can be determined at runtime. | 8 is a class in Dart's core library. It is the root of the Dart class hierarchy and is a supertype of all Dart types, meaning every class and data types are extended from Object. When you use Object, you still have to adhere to Dart's static typing rules, which means you have to perform explicit type conversions when necessary. |
