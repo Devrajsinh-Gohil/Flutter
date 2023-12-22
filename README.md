@@ -72,3 +72,14 @@ In Dart, `dynamic` and `Object` are both types that can hold values of any type.
 | **dynamic**            | **Object** |
 |--------------------|----------------------------|
 | `dynamic` is a type that tells the Dart compiler to skip type checking at compile time. This means that the type of a dynamic variable can be determined at runtime. | `Object` is a class in Dart's core library. It is the root of the Dart class hierarchy and is a supertype of all Dart types, meaning every class and data types are extended from Object. When you use Object, you still have to adhere to Dart's static typing rules, which means you have to perform explicit type conversions when necessary. |
+
+- #### Variable Declaration using Data Type
+
+There are several built-in data types, including:
+
+`int`: used to store integers<br>
+`double`: used to store floating-point numbers<br>
+`String`: used to store text<br>
+`bool`: used to store true or false value<br>
+`List`: used to store ordered collections of objects<br>
+`Map`: used to store unordered collections of key-value pairs<br>
